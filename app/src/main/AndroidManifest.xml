@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.janela.starbuzz" >
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.janela.starbuzz.TopLevelActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.janela.starbuzz.Drinks"
+            android:label="@string/title_activity_drinks"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.example.janela.starbuzz.Food"
+            android:label="@string/title_activity_food"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.example.janela.starbuzz.Stores"
+            android:label="@string/title_activity_stores"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.example.janela.starbuzz.Latte"
+            android:label="@string/title_activity_latte" >
+        </activity>
+        <activity
+            android:name="com.example.janela.starbuzz.Cappuchino"
+            android:label="@string/title_activity_cappuchino" >
+        </activity>
+        <activity
+            android:name="com.example.janela.starbuzz.Espresso"
+            android:label="@string/title_activity_espresso" >
+        </activity>
+        <activity
+            android:name="com.example.janela.starbuzz.Cookie"
+            android:label="@string/title_activity_cookie" >
+        </activity>
+        <activity
+            android:name="com.example.janela.starbuzz.Cake"
+            android:label="@string/title_activity_cake" >
+        </activity>
+        <activity
+            android:name="com.example.janela.starbuzz.Beignet"
+            android:label="@string/title_activity_beignet" >
+        </activity>
+        <activity
+            android:name="com.example.janela.starbuzz.CoffeeMug"
+            android:label="@string/title_activity_coffee_mug" >
+        </activity>
+        <activity
+            android:name="com.example.janela.starbuzz.CoffeeGrounds"
+            android:label="@string/title_activity_coffee_grounds" >
+        </activity>
+        <activity
+            android:name="com.example.janela.starbuzz.CoffeeTumbler"
+            android:label="@string/title_activity_coffee_tumbler" >
+        </activity>
+    </application>
+
+</manifest>
